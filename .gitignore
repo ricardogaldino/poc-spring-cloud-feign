@@ -1,7 +1,37 @@
-.gradle/6.7/gc.properties
-.gradle/6.7/fileChanges/last-build.bin
-.gradle/6.7/fileHashes/fileHashes.lock
-.gradle/checksums/checksums.lock
-.gradle/configuration-cache/gc.properties
-.gradle/vcs-1/gc.properties
-.idea/*
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/

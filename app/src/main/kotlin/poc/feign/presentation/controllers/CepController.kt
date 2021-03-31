@@ -14,9 +14,7 @@ class CepController(val cepService: CepService) {
 
     @GetMapping("/{code}")
     fun getAddress(@PathVariable code: String): ResponseEntity<CepRepresentation?> {
-
-        val cepRepresentation = cepService.getCep(code)
-
-        return ResponseEntity.ok().body(cepRepresentation)
+        return ResponseEntity.ok()
+            .body(cepService.getCep(code))
     }
 }
